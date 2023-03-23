@@ -2,7 +2,7 @@
    "sale":false,
    "img":"https://cdn.discordapp.com/avatars/964018424684613642/21d3645c61843fd2b5c304135ccfb634.webp?size=256",
    "h2":"A special offer for you",
-   "p":"There is a discount of up to 50% on products.",
-   "coupon":"50DISCOUNT",
+   "p":"There is a discount of up to 40% on products.",
+   "coupon":"40RES",
    "extra_css":".discount {  background: linear-gradient(45deg, #0c6b72, transparent)!important;backdrop-filter: blur(10px); }"
 }
