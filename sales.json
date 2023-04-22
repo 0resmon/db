@@ -1,8 +1,8 @@
 {
    "sale":true,
    "img":"https://cdn.discordapp.com/avatars/964018424684613642/21d3645c61843fd2b5c304135ccfb634.webp?size=256",
-   "h2":"https://discord.gg/0resmon",
-   "p":"We are holding a big draw in honor of our Discord server having 6000 people.",
-   "coupon":"",
+   "h2":"Giveaway",
+   "p":"We are holding a big draw in honor of our Discord server having 6000 people. We distribute 1100 € tebex coupons in total.",
+   "coupon":"discord.gg/0resmon",
    "extra_css":".discount {  background: linear-gradient(45deg, #0c6b72, transparent)!important;backdrop-filter: blur(10px); }"
 }
