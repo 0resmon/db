@@ -3,7 +3,7 @@
    "img":"https://cdn.discordapp.com/avatars/964018424684613642/21d3645c61843fd2b5c304135ccfb634.webp?size=256",
    "h2":"Special Offer",
    "p":"In honor of our Discord server reaching 6000 members, we are offering a 40% discount on all products.",
-   "p2":"This discount will end on April 30th.Please enjoy this special promotion and don't miss out on the opportunity to save on your favorite items.",
+   "p":"This discount will end on April 30th.Please enjoy this special promotion and don't miss out on the opportunity to save on your favorite items.",
    "coupon":"RESMON40",
    "extra_css":".discount {  background: linear-gradient(45deg, #0c6b72, transparent)!important;backdrop-filter: blur(10px); }"
 }
