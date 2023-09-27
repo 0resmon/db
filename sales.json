@@ -2,7 +2,7 @@
    "sale":true,
    "img":"https://cdn.discordapp.com/avatars/964018424684613642/21d3645c61843fd2b5c304135ccfb634.webp?size=256",
    "h2":"Special Offer",
-   "p":"Enjoy a 40% discount on all products... .",
-   "coupon":"RESMON40",
+   "p":"Enjoy a 50% discount on all products... .",
+   "coupon":"RESMON450",
    "extra_css":".discount {  background: linear-gradient(45deg, #0c6b72, transparent)!important;backdrop-filter: blur(10px); }"
 }
