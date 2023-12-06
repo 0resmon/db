@@ -9,6 +9,6 @@
     },
     {
         "name": "s4-house v3",
-        "desc": "IPL rooms have a loading issue and also have a crash eating issue when leaving the house. The loading issues will be reviewed and the scenario will be reworked. These are the reported issues, open a ticket on discord to report extra issues."
+        "desc": "IPL rooms have a loading issue and also have a crashing issue when leaving the house. The loading issues will be reviewed and the scenario will be reworked. These are the reported issues, open a ticket on discord to report extra issues."
     }
 ]
