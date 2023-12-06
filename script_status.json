@@ -6,5 +6,9 @@
     {
         "name": "s4-reportsystemv1",
         "desc": "The script cannot function because Discord changed the upload system. This script and s4-render scripts are in the rework process."
+    },
+    {
+        "name": "s4-house v3",
+        "desc": "IPL rooms have a loading issue and also have a crash eating issue when leaving the house. The loading issues will be reviewed and the scenario will be reworked. These are the reported issues, open a ticket on discord to report extra issues."
     }
 ]
