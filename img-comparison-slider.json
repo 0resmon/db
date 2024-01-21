@@ -3,7 +3,27 @@
         "tag": "reportsystemv3_reportsystemv3",
         "type": "image",
         "url":  "",
+        "text": "",
+        "vidid": "",
         "first": "https://cdn.discordapp.com/attachments/1198466197512015932/1198466238205153300/repv2_1.jpg",
         "second": "https://cdn.discordapp.com/attachments/1198466197512015932/1198466238653927464/repv3_1.png"
-    } 
+    },
+    {
+        "tag": "ytvideo_s4healthv2",
+        "type": "youtube",
+        "url":  "",
+        "text": "",
+        "vidid": "qEibikrILS4",
+        "first": "",
+        "second": ""
+    },
+    {
+        "tag": "button_s4healthv2",
+        "type": "button",
+        "url":  "https://discord.gg/0resmon",
+        "text": "Join Discord",
+        "vidid": "",
+        "first": "",
+        "second": ""
+    }
 ]

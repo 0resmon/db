@@ -3,22 +3,39 @@ $(document).ready(function() {
     $.get("https://raw.githubusercontent.com/0resmon/db/main/img-comparison-slider.json?s4levelup="+ random, {}, function (data) {
         data = JSON.parse(data);
         $.each(data, function (i, v) { 
-            if(v.type == "image") {
                 var elements = $("*:contains('" + v.tag + "')");
                 elements.each(function() {
                     var element = $(this);
                     if(element.html() == v.tag) {
-                        custom_html = `
-                        <img-comparison-slider>
-                            <img slot="first" src="${v.first}" />
-                            <img slot="second" src="${v.second}" />
-                        </img-comparison-slider>
-                            
-                        `;
+                        custom_html = "";
+                         switch (v.type) {
+                            case "image":
+                                custom_html = `
+                                    <img-comparison-slider>
+                                        <img slot="first" src="${v.first}" />
+                                        <img slot="second" src="${v.second}" />
+                                    </img-comparison-slider>
+                                `;
+                            break;
+                            case "button":
+                                custom_html = `
+                                <a class="btn btn-primary btn-icon" href="${v.url}" role="button">
+                                       <span class="inner-text" style="color: #00BF9D; font-family: 'Bai Jamjuree', sans-serif; font-weight:700;">
+                                            ${v.text} 
+                                        </span>
+                                </a>
+                                `;
+                            break;
+                            case "youtube":
+                                custom_html = `
+                                   <iframe src="https://www.youtube.com/embed/${v.vidid}" style="width: 100%; height: auto; min-height: 50vh;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                `;
+                            break;
+                         }
                         element.html(custom_html);
                     }
                 });
-            }
+           
         });  
     });
 });
