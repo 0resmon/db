@@ -25,5 +25,14 @@
         "vidid": "",
         "first": "",
         "second": ""
+    }, 
+    {
+        "tag": "button_s4healthv2Docs",
+        "type": "button",
+        "url":  "https://docs.0resmon.com/ReportSystem/install/",
+        "text": "Show Documentation",
+        "vidid": "",
+        "first": "",
+        "second": ""
     }
 ]
