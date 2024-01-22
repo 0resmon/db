@@ -72,3 +72,16 @@ $(document).ready(function() {
 //     });
 
  
+
+// jquery ui
+
+
+$(document).on("click", "table img", function () {
+    const src = $(this).attr("src");
+    $(".img-viewer").show("fade");
+    $(".imgShow").css({ "background": `url(${src})`, "background-size": "contain", "background-repeat": "no-repeat", "background-position": "center" });
+});
+
+$(document).on("click", ".img-viewer i", function () {
+    $(".img-viewer").hide("fade");
+});
